@@ -15,12 +15,18 @@ a, h1 {
   color: yellow;
 }
 
+h2 {
+  font-size: 25px;
+  color: yellow;
+  font-style: oblique;
+}
+
 html {
   background-color: rgb(40, 42, 54);
   height: 100%;
 }
 
-pre {
+code {
   font-family: 'Consolas';
   color: #DC143C;
   display: inline;
