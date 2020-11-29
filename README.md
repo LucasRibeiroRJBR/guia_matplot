@@ -1,4 +1,4 @@
-![]('img/titulo.png')
+![](https://i.snipboard.io/apv6mW.jpg)
 
 # Guia Matplolib
  Guia sobre a biblioteca Matplotlib **Python** em **HTML5/CSS3**.
