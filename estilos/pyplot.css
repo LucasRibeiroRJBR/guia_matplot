@@ -20,8 +20,8 @@ html {
   height: 100%;
 }
 
-pre {
-  font-family: 'Consolas';
+code {
+  font-family: monospace;
   color: #DC143C;
   display: inline;
 }

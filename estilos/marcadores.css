@@ -27,9 +27,13 @@ html {
 }
 
 code {
-  font-family: 'Consolas';
+  font-family: monospace;
   color: #DC143C;
   display: inline;
+}
+
+figcaption {
+  font-family: monospace;
 }
 
 .codigo {
@@ -134,4 +138,17 @@ b.amarelo {
   opacity: 1;
   left: 0;
 }
+
+table {
+
+  border-collapse: collapse;
+  
+}
+
+td, th {
+  border: 5px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+
 

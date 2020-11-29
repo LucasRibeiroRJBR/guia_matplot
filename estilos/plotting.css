@@ -27,7 +27,7 @@ html {
 }
 
 code {
-  font-family: 'Consolas';
+  font-family: monospace;
   color: #DC143C;
   display: inline;
 }
