@@ -72,6 +72,46 @@ h2.css {
     left: 0;
 }
 
+.button_roxo {
+    display: inline-block;
+    border-radius: 10px;
+    background-color: purple;
+    border: none;
+    text-align: center;
+    font-size: 22px;
+    padding: 20px;
+    width: 225px;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin: 5px;
+}
+  
+.button_roxo span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+  }
+  
+.button_roxo span:after {
+    content: url('../img/icone.png');
+    color: rgb(249, 230, 92);
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    left: -20px;
+    transition: 0.5s;
+}
+
+.button_roxo:hover span {
+    padding-left: 45px;
+}
+  
+.button_roxo:hover span:after {
+    opacity: 1;
+    left: 0;
+}
+
 b.amarelo {
     color: rgb(249, 230, 92);
     font-size: 22px;
